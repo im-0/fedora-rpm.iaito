@@ -1,9 +1,9 @@
 Name:           iaito
-Version:        5.2.1
+Version:        5.2.2
 Release:        1%{?dist}
 Summary:        GUI for radare2 reverse engineering framework
 
-%global         iaito_translations_commit 9e4b6de0d1cbf8f8bf077240b54532cc32b384b4
+%global         iaito_translations_commit       93c0bb887c1a0de66d55fb84f3aa75e662a1dfd5
 
 
 # CC-BY-SA: src/img/icons/
@@ -126,6 +126,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 %doc html
 
 %changelog
+* Thu Apr 29 2021 Michal Ambroz <rebus _AT seznam.cz> - 5.2.2-1
+- bump to 5.2.2
+
 * Sat Apr 24 2021 Michal Ambroz <rebus _AT seznam.cz> - 5.2.1-1
 - bump to 5.2.1
 
