@@ -1,6 +1,6 @@
 Name:           iaito
 Version:        5.3.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        GUI for radare2 reverse engineering framework
 
 %global         iaito_translations_commit       93c0bb887c1a0de66d55fb84f3aa75e662a1dfd5
@@ -126,6 +126,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 %doc html
 
 %changelog
+* Sat Sep 18 2021 Henrik Nordstrom <henrik@henriknordstrom.net> - 5.3.1-2
+- rebuilt with radare 5.4.0
+
 * Wed Jul 21 2021 Henrik Nordstrom <henrik@henriknordstrom.net> - 5.3.1-1
 - Update to release 5.3.1
 
