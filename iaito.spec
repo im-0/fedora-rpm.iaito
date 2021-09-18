@@ -15,7 +15,7 @@ Source0:        https://github.com/radareorg/iaito/archive/%{version}/iaito-%{ve
 Source1:        https://github.com/radareorg/iaito-translations/archive/%{iaito_translations_commit}.tar.gz#/iaito-translations-%{iaito_translations_commit}.tar.gz
 
 
-BuildRequires:  radare2-devel >= 5.3.1
+BuildRequires:  radare2-devel >= 5.4.0
 BuildRequires:  git
 BuildRequires:  cmake
 BuildRequires:  make
@@ -127,7 +127,7 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 %changelog
 * Sat Sep 18 2021 Henrik Nordstrom <henrik@henriknordstrom.net> - 5.3.1-2
-- rebuilt with radare 5.4.0
+- rebuilt with radare2 5.4.0
 
 * Wed Jul 21 2021 Henrik Nordstrom <henrik@henriknordstrom.net> - 5.3.1-1
 - Update to release 5.3.1
